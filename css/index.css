@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 3266px;
+    width: 1440px;
+}
+
+.container-fluid {
+    background-color: #F1F3FF;
+}
+.navbar {
+    padding: 0px;
+}
+.bg1 {
+    /* bg */
+    display: flex;
+    width: 1440px;
+    height: 500px;
+    padding: 5px;
+    flex-direction: row;
+
+    background-color: #F1F3FF;
+    }
+
+.banner1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero1 {
+    position: absolute;
+    width: 568px;
+    height: 108px;
+    left: 136px;
+    top: 177px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    /* or 54px */
+}
+
+.hero2 {
+    /* Sewa & Rental Mobil Terbaik di kawasan (Lokasimu) */
+
+    position: absolute;
+    width: 468px;
+    height: 60px;
+    left: 136px;
+    top: 301px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+/* or 54px */
+
+
+color: #000000;
+
+
+}
+
+.mobil {
+/* Mercedes Car EQC 300kW Edition - 900x598 1 */
+
+position: absolute;
+width: 704px;
+height: 407px;
+left: 700px;
+top: 97px;
+}
+
+.sewa-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    font-size: 14px;
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 140px;
+    height: 36px;
+    left: 136px;
+    top: 377px;
+
+    background: #5CB85F;
+border-radius: 2px;
+
+}
+
+.girl {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.girl1 {
+    width: 568px;
+}
+
+.text-girl {
+    width: 468px;
+height: 80px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+}
