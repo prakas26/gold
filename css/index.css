@@ -192,17 +192,17 @@ text-align: center;
     display: flex;
     flex-direction: row;
     gap: 10px;
-    width: 1677px;
+    width: 1710px;
 }
 
 .review {
 display: flex;
 gap: 10px;
-width: 559px;
+width: 570px;
 height: 250px;
 align-items:center;
 
-background: blanchedalmond;
+background: #F1F3FF;
 }
 
 .review-text {
@@ -212,4 +212,10 @@ background: blanchedalmond;
     font-size: 14px;
     line-height: 20px;
     width: 400px;
+}
+
+.button {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
 }
