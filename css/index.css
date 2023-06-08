@@ -217,5 +217,26 @@ background: #F1F3FF;
 .button {
     display: flex; 
     flex-direction: row;
+}
+
+.blue-box {
+    position: relative;
+    width: 1168px;
+    height: 326px;
+    margin: 136px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     justify-content: center;
+    color: white;
+
+background-color: #0D28A6;
+border-radius: 13px;
+}
+
+.faq {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-left: 136px;
 }
