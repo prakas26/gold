@@ -15,7 +15,7 @@
       <nav class="navbar fixed-top bg-body-tertiary">
           <div class="container-fluid" >
             <a class="navbar-brand" href="#">
-              Bootstrap
+              navbar
             </a>
         <ul class="nav" style="justify-content: flex-end;">
           <li class="nav-item">
@@ -34,16 +34,20 @@
       </div>
       </nav>
     </section>
-    <section class="bg1">
-      <div class="banner1">
-        <h1 class="hero1">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1> <br>
-        <p class="hero2">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p> <br>
-        <button class="sewa-button">
-          mulai sewa mobil
-        </button>
-      </div>
-      <div>
-        <img class="mobil" src="assets/img_car.svg" alt="ini mobil">
+    <section >
+      <div class="bg1">
+        <div class="banner1">
+          <h1 class="hero1">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1> <br>
+          <p class="hero2">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p> <br>
+          <button class="sewa-button">
+            mulai sewa mobil
+          </button>
+        </div>
+        <div>
+        <div>
+          <img src="assets/img_car.svg" alt="ini mobil" class="mobil">
+        </div>
+        </div>
       </div>
     </section>
     <br>
@@ -116,48 +120,57 @@
         </div>
       </div>
     </section>
-    <!-- <section>
-      <div style="margin-top: 50px;">
-        <p class="testi-text"> Testimonial </p>
-        <p class="testi-text1"> Berbagai review positif dari para pelanggan kami</p>
-      </div>
-      <div class="konten-review">
-        <div class="review border">
-          <div>
-            <img src="assets/img_photo.png" style="margin-left: 22px;">
+    <section>
+      <div id="carouselExample" class="carousel slide" style="left: 410px; width: 570px;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="review">
+              <div>
+                <img src="assets/img_photo.png" class="d-block w-70" style="margin-left: 40px; margin-right: 20px;" alt="...">
+              </div>
+              <div class="d-block w-100">
+                <img src="assets/Rate.png">
+                <h1 class="review-text"> “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod” </h1>
+                <p> John Dee 32, Bromo</p>
+              </div>
+            </div>
           </div>
-          <div style="margin-left: 25px;">
-            <img src="assets/Rate.png">
-            <p class="review-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
-            <p style="font-family: 'Arial'; font-size: 14px;">John Dee 32, Bromo</p>
+          <div class="carousel-item">
+            <div class="review">
+              <div>
+                <img src="assets/img_photo.png" class="d-block w-70" style="margin-left: 40px; margin-right: 20px;" alt="...">
+              </div>
+              <div class="d-block w-100">
+                <img src="assets/Rate.png">
+                <h1 class="review-text"> “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod” </h1>
+                <p> John Dee 32, Bromo</p>
+              </div>
+            </div>
           </div>
+          <div class="carousel-item">
+            <div class="review">
+              <div>
+                <img src="assets/img_photo.svg" class="d-block w-70" style="margin-left: 40px; margin-right: 20px;" alt="...">
+              </div>
+              <div class="d-block w-100">
+                <img src="assets/Rate.png">
+                <h1 class="review-text"> “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod” </h1>
+                <p> John Dee 32, Bromo</p>
+              </div>
+            </div>
         </div>
-        <div class="review border">
-          <div>
-            <img src="assets/img_photo.svg" style="margin-left: 22px;">
-          </div>
-          <div style="margin-left: 25px;">
-            <img src="assets/Rate.png">
-            <p class="review-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
-            <p style="font-family: 'Arial'; font-size: 14px;">John Dee 32, Bromo</p>
-          </div>
-        </div>
-        <div class="review border">
-          <div>
-            <img src="assets/img_photo.png" style="margin-left: 22px;">
-          </div>
-          <div style="margin-left: 25px;">
-            <img src="assets/Rate.png">
-            <p class="review-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
-            <p style="font-family: 'Arial'; font-size: 14px;">John Dee 32, Bromo</p>
-          </div>
+        <div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
-      <div class="button"></div>
-        <button><</button>
-        <button>></button>
-      </div>
-    </section> -->
+    </section>
     <section>
       <div class="blue-box">
         <h1>Sewa Mobil di (Lokasimu) Sekarang</h1>
