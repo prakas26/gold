@@ -1,3 +1,92 @@
+@media (max-width: 360px) { 
+    
+    .navbar {
+        max-width: 100vw;
+    }
+
+    sm-px {
+        margin-top: 70px;
+    }
+    .mobil {
+        width: 100vw;
+    }
+    .bg1 {
+    
+        margin-top: 150px;
+    }
+
+    .hero1 {
+        max-width: 250px;
+        max-height: 316px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 150%;
+    }
+
+    .hero2 {
+        max-width: 250px;
+        max-height: 316px;
+
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .girl{
+        width: 100vw;
+    }
+    .girl1-2 {
+        display: flex;
+        width: 100vh;
+        height: 228px;
+        justify-content: left;
+        margin-left: 10px;
+    }
+
+    .girl1 {
+        width: 100vw;
+    }
+
+    .carousel {
+        width: 100vw;
+        left: 0%;
+    }
+    .review {
+        width: 100vw;
+    }
+    #pn-but {
+        width: 360px;
+    }
+    .blue-box {
+        width: 328px;
+        height: 420px;
+        left: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        
+
+        background: #0D28A6;
+        border-radius: 13px;
+                
+    }
+
+    .text-box1 {
+        text-align: center;
+        color: white;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+}
+
 @media (min-width: 1200px) { 
 
     body {
@@ -5,16 +94,18 @@
         padding: 0;
     }
 
-    .container-fluid {
-        background-color: #F1F3FF;
-    }
     .navbar {
         padding: 0px;
+        width: 100vw;
+        margin-bottom: 10px;
+    }
+    .container-fluid {
+        background-color: #F1F3FF;
     }
     .bg1 {
         /* bg */
         display: flex;
-        width: 500px;
+        width: 100vw;
         height: 500px;
         padding: 5px;
         flex-direction: row;
@@ -25,14 +116,15 @@
     .banner1 {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .hero1 {
         position: absolute;
         width: 568px;
-        height: 108px;
+        height: 208px;
+        margin: 10px;
         left: 136px;
-        top: 177px;
         
         font-family: 'Arial';
         font-style: normal;
@@ -69,10 +161,10 @@
         position: relative;
         width: 600px;
         height: 607px;
-        left: 700px;
+        left: 650px;
     }
 
-    .sewa-button {
+    #sewa-button {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -88,16 +180,13 @@
         left: 136px;
         top: 377px;
 
-        background: #5CB85F;
-        border-radius: 2px;
-
     }
 
     .girl {
         display: flex;
         flex-direction: row;
         gap: 60px;
-        justify-content: center;
+        margin-left: 136px;
         margin-top: 50px;
     }
 
@@ -109,6 +198,26 @@
         width: 468px;
         height: 80px;
 
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .konten-girl-text {
+        margin-left: 9.44%;
+        width: 100vw;
+    }
+
+    .konten-why {
+        font-family: 'Arial';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .konten-pilih {
         font-family: 'Arial';
         font-style: normal;
         font-weight: 700;
@@ -152,33 +261,18 @@
         line-height: 20px;
     }
 
-
-    .testi-text {
-        font-family: 'Arial';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 20px;
-
-        text-align: center;
-
-    }
     .testi-text1 {
-        font-family: 'Arial';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 20px;
-    /* identical to box height, or 143% */
-
         text-align: center;
+        width: 1200px;
+        }
+    .testi-text2 {
+        text-align: center;
+        width: 1200px;
     }
 
-    .konten-review {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-        width: 1710px;
+    .carousel {
+        left: 360px; 
+        width: 570px;
     }
 
     .review {
@@ -207,7 +301,7 @@
 
     .blue-box {
         position: relative;
-        width: 1168px;
+        width: 968px;
         height: 326px;
         margin: 136px;
         display: flex;
@@ -222,54 +316,30 @@
 
     .faq {
         display: flex;
-        gap: 60px;
+        gap: 30px;
         align-items: center;
         margin-left: 136px;
         }
+    .faq-x {
+        height: 190px;
+        width: 489px;
+    }
+    .faq-text1 {
+        text-align: start;
+        font-size: 24px;
+        margin-left: 40px;
+    }
+
+    .faq-text2 {
+        font-size: 14px;
+        margin-left: 40px;
+    }
+    #button-me {
+        width: 468px; 
+        display:flex; 
+        justify-content: space-between; 
+        align-items: center;
+    }
 }
 
 
-/* @media (min-width: 576px) { 
-    body {
-        font-size: 10px;
-        max-width: 576px;
-    }
-    .navbar {
-        height: 50px;
-        margin-bottom: 10px;
-    }
-
-    .navbar-brand {
-        font-size: 10px;
-    }
-
-    .mobil {
-        width: 200px
-    }
-
-    h1 {
-        width: 328px;
-        height: 216px;
-
-        font-family: 'Arial';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 150%;
-    }
-    .bg1 {
-    
-        margin-top: 10px;
-    }
-
-    .hero2 {
-        width: 328px;
-        height: 60px;
-
-        font-family: 'Arial';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 20px;
-    }
-} */

@@ -7,7 +7,6 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 <body>
   <main>
@@ -39,9 +38,9 @@
         <div class="banner1">
           <h1 class="hero1">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1> <br>
           <p class="hero2">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p> <br>
-          <button class="sewa-button">
-            mulai sewa mobil
-          </button>
+          <div>
+          <button id="sewa-button" type="button" class="btn btn-success"> Mulai Sewa Mobil</button>
+          </div>
         </div>
         <div>
         <div>
@@ -52,8 +51,8 @@
     </section>
     <br>
     <section class="girl">
-      <div>
-        <img src="assets/img_service.svg" style=" width: 428px; height: 459px;">
+      <div class="girl1-2">
+        <img src="assets/img_service.svg">
       </div>
       <div class="girl1">
         <h1>
@@ -80,21 +79,11 @@
       </div>
     </section>
     <section>
-      <div style="
-      margin-left: 9.44%;">
-        <p style="
-        font-family: 'Arial';
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 36px;">
+      <div class="konten-girl-text">
+        <p class="konten-why">
           Why us?
           <br>
-          <p style="
-          font-family: 'Arial';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 14px;
-          line-height: 20px;"> Mengapa harus pilih binar Car Rental?</p>
+          <p class="konten-pilih"> Mengapa harus pilih binar Car Rental?</p>
         </p>
       </div>
       <div class="konten">
@@ -121,7 +110,9 @@
       </div>
     </section>
     <section>
-      <div id="carouselExample" class="carousel slide" style="left: 410px; width: 570px;">
+      <h1 class="testi-text1"> Testimonial </h1>
+      <p class="testi-text2">Berbagai review positif dari para pelanggan kami</p>
+      <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="review">
@@ -160,21 +151,18 @@
             </div>
         </div>
         <div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+      </div>
+    </section>
+    <section>
+      <div id="pn-but" class="d-flex justify-content-center" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary" data-bs-target="#carouselExample" data-bs-slide="prev"><</button>
+        <button type="button" class="btn btn-primary" data-bs-target="#carouselExample" data-bs-slide="next">></button>
       </div>
     </section>
     <section>
       <div class="blue-box">
-        <h1>Sewa Mobil di (Lokasimu) Sekarang</h1>
-        <p style="width: 468px; margin-left: 342px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <h1 class="text-box1">Sewa Mobil di (Lokasimu) Sekarang</h1>
+        <p class="text-box1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         <div>
           <button type="button" class="btn btn-primary"
           style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;background-color: #5CB85F;">
@@ -184,13 +172,13 @@
       </div>
     </section>
     <section class="faq">
-      <div>
-        <h1>Frequently Asked Question</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <div class="faq-x">
+        <h1 class="faq-text1">Frequently Asked Question</h1>
+        <p class="faq-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       </div>
       <div>
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black; background-color: white; width: 668px; display:flex; justify-content: space-between; align-items: center;">
+          <button id="button-me" class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Apa saja syarat yang dibutuhkan?
           </button>
           <ul class="dropdown-menu">
@@ -200,7 +188,7 @@
           </ul>
         </div>
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black; background-color: white; width: 668px; display:flex; justify-content: space-between; align-items: center;">
+          <button id="button-me" class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Berapa hari minimal sewa mobil lepas kunci?
           </button>
           <ul class="dropdown-menu">
@@ -210,8 +198,8 @@
           </ul>
         </div>
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black; background-color: white; width: 668px; display:flex; justify-content: space-between; align-items: center;">
-            Berapa hari sebelumnya sabaiknya booking sewa mobil?
+          <button id="button-me" class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Berapa hari sebelumnya sebaiknya booking sewa mobil?
           </button>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -220,7 +208,7 @@
           </ul>
         </div>
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black; background-color: white; width: 668px; display:flex; justify-content: space-between; align-items: center;">
+          <button id="button-me" class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Apakah Ada biaya antar-jemput?
           </button>
           <ul class="dropdown-menu">
@@ -229,7 +217,7 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </div><div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black; background-color: white; width: 668px; display:flex; justify-content: space-between; align-items: center;">
+          <button id="button-me" class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Bagaimana jika terjadi kecelakaan
           </button>
           <ul class="dropdown-menu">
@@ -240,6 +228,35 @@
         </div>
       </div>
     </section>
+    <section style="margin-top: 30px;">
+      <div class="container text-left d-flex justify-content-center">
+        <div class="row">
+          <div class="col"> 
+            <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+            <p>binarcarrental@gmail.com</p>
+            <p>081-233-334-808</p>
+          </div>
+          <div class="col">       
+            <p>Our services</p>
+            <p>Why Us</p>
+            <p>Testimonial</p>
+            <p>FAQ</p>
+          </div>
+          <div class="col">
+            <p>Connect with us</p>
+            <img src="assets/icon_facebook.png">
+            <img src="assets/icon_instagram.png">
+            <img src="assets/icon_twitter.png">
+            <img src="assets/icon_mail.png">
+            <img src="assets/icon_twitch.png">
+          </div>
+          <div class="col">
+            <p>Copyright Binar 2022</p>
+            <div></div>
+          </div>
+        </div>
+    </section>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
