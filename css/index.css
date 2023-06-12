@@ -1,8 +1,4 @@
 @media (max-width: 370px) { 
-    
-    .navbar {
-        width: 100vw;
-    }
 
     .sm-px {
         margin-top: 70px;
@@ -42,14 +38,65 @@
     }
     .girl1-2 {
         display: flex;
-        width: 100vh;
         height: 228px;
         justify-content: left;
         margin-left: 10px;
     }
 
-    .girl1 {
+    .girl1-text {
         width: 100vw;
+        margin: 10px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .text-girl {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .konten-why {
+        text-align: center;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .konten-pilih {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .konten {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        max-width: 360px;
+        margin-left: 10px;
+    }
+    .konten-in {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        border: 1px black;
+    }
+    .icon {
+        width: 32px;
+        height: 32px;
     }
 
     .sm-testi {
@@ -95,6 +142,26 @@
         color: white;
         margin-left: 24px;
         margin-right: 24px;
+    }
+
+    .faq-text1 {
+        text-align: center;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .faq-text2 {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        max-width: 300px;
+
     }
 
 }
@@ -225,7 +292,6 @@
 
     .konten-girl-text {
         margin-left: 9.44%;
-        width: 100vw;
     }
 
     .konten-why {
@@ -293,7 +359,7 @@
     }
 
     .carousel {
-        left: 360px; 
+        margin-left: 25%;
     }
 
     .review {
